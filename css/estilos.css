@@ -36,9 +36,10 @@ button a {
 #contImg {
   background-color: rgba(74,203,172,0.8);
   color: #fff;
-  margin: 10em 0 0 0;
-  padding: 0.5em 0;
-  width: 100%;
+  margin: auto;
+  padding: 0.5em;
+  text-shadow: 4px 4px 2px #969696;
+  width: 90%;
 }
 #contLargo {
   text-align: center;
@@ -141,13 +142,16 @@ button a {
 #tratamiento {
   width: 100%;
 }
+#tratamiento h2 {
+  color: #df4801;
+}
 #tratamiento ul {
   text-decoration: none;
 }
 #tratamiento ul li {
   background-color: rgba(74,203,172,0.8);
   border-radius: 0.5em;
-  color: #808080;
+  color: #fff;
   padding: 0 25px;
   display: inline-block;
   vertical-align: top;
@@ -204,9 +208,10 @@ button a {
   padding: 45px 0 0 0;
 }
 .contFlor h2 {
-  background: rgba(74,203,172,0.68);
-  border-radius: 0.5em;
+  background: rgba(74,203,172,0.8);
+  border-radius: 0.5em 0.5em 0 0;
   color: #fff;
+  text-shadow: 4px 4px 2px #949696;
   margin: auto;
   padding: 30px 0;
   width: 30%;
