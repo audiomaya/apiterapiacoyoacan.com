@@ -2,9 +2,65 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Contacto</title>
+  <title>Formulario de contacto</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 
+  <section id="cont1" >
+
+    <div >
+      <figure id=logo>
+        <img src="img/apiterapiaLogo.png">
+      </figure>
+      <nav id="navegacion">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li> <a href="productos.html">Productos</a></li>
+          <li><a href="testimonios.html">Testimonios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  <form action="" >
+    <div id="formulario" class="animated bounceInDown">
+      <h2>Información de contacto</h2>
+      <input type="text" name="nombre" placeholder="Nombre">
+      <input type="email" name="correo" placeholder="e-Mail">
+      <input type="tel" name="telefono" placeholder="Teléfono">
+      <textarea name="mensaje" placeholder="Escribe tu duda o comentario" rows="8" cols="40"></textarea>
+      <button value="Enviar">Enviar</button>
+    </div>
+  </form>
+  <footer id="pie" data-stellar-background-ratio="0.5">
+    <div id="fondo">
+      <nav id="navP">
+        <ul>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Testimonios</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Inscribete a nuestro boletín mensual</a></li>
+        </ul>
+      </nav>
+      <h1>Apiterapia Coyoacan</h1>
+      <div id="contacto">
+        <p>visitanos en:</p>
+        <a href="#">facebook</a>
+
+        <a href="#">twitter</a>
+
+        <a href="#">youtube</a>
+        <p>Informes: 55555555</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/stellar.js"></script>
+  <script>
+    $.stellar();
+  </script>
 </body>
 </html>
