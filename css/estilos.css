@@ -2,6 +2,7 @@ body {
   font-size: 20px;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 button {
   background: #f79f06;
@@ -317,4 +318,73 @@ form {
 }
 .terapia h1 {
   color: #f79f06;
+}
+@media screen and (max-width: 959px) {
+  #logo {
+    width: 90%;
+  }
+  #navegacion {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+  #contLargo {
+    margin: 10px auto;
+  }
+  #descripcion {
+    padding: 0 10px;
+    width: 100%;
+  }
+  #descripcion button {
+    margin: 10px 0 10px 250px;
+  }
+  #imgDescrip {
+    display: none;
+  }
+  #imgDescrip img {
+    display: none;
+  }
+  #logo {
+    width: 90%;
+  }
+  #navegacion {
+    width: 100%;
+  }
+  #tratamiento {
+    width: 100%;
+  }
+  #tratamiento ul {
+    margin: 0;
+    padding: 0;
+  }
+  #tratamiento ul li {
+    margin: 6px 0;
+    padding: 0;
+    width: 70%;
+  }
+  .cont3 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: initial;
+    width: 100%;
+  }
+  .contFlor {
+    display: none;
+  }
+  .florB {
+    display: none;
+  }
+  .img2 {
+    width: 90%;
+  }
+  .img2 img {
+    width: 100%;
+  }
+  .abejas1 {
+    width: 100%;
+  }
+  .abejas2 {
+    width: 100%;
+  }
 }
