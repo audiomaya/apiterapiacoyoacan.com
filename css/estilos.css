@@ -30,6 +30,12 @@ form {
   margin: 0;
   height: 794px;
 }
+h2 {
+  color: #155fa3;
+}
+h3 {
+  color: #8b375d;
+}
 #cont1 {
   background: #000;
   margin: auto;
@@ -114,6 +120,15 @@ form {
   width: 45%;
 }
 #imgDescrip img {
+  width: 50%;
+}
+#infoPre {
+  background-color: #fff;
+  border-radius: 0.5em;
+  color: #000;
+  display: none;
+  padding: 1em;
+  text-align: left;
   width: 50%;
 }
 #logo {
