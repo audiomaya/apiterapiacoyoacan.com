@@ -12,12 +12,15 @@ button {
   -vendor-animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
 }
+button a {
+  color: #000;
+  text-decoration: none;
+}
 button:hover {
   background: #df4801;
-  color: #fff;
 }
 button:hover a {
-  color: #8b375d;
+  color: #fff;
   text-decoration: none;
 }
 form {
@@ -36,6 +39,13 @@ h2 {
 h3 {
   color: #8b375d;
 }
+#bgMujer {
+  background-image: url("/img/dolor.jpg");
+  background-repeat: no-repeat;
+  background-sieze: 100%;
+  background-position: center;
+  width: 100%;
+}
 #cont1 {
   background: #000;
   margin: auto;
@@ -53,6 +63,17 @@ h3 {
   padding: 0.4em;
   text-decoration: none;
   display: inline;
+}
+#contAT {
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+  width: 99%;
+}
+#contAT h3 {
+  color: #155fa3;
+  font-size: 2em;
 }
 #contImg {
   background-color: rgba(74,203,172,0.8);
@@ -74,6 +95,17 @@ h3 {
 }
 #fondo2 {
   width: 100%;
+}
+#fondo3 {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+#fondo4 {
+  margin: auto;
+  padding: 10px 0;
+  text-align: right;
+  width: 80%;
 }
 #formulario {
   background: rgba(74,203,172,0.8);
@@ -246,11 +278,20 @@ h3 {
   border-left: thin solid #fff;
   color: #fff;
   display: inline-block;
-  margin: 18em 0 0 0;
+  margin: 8em 0 0 0;
   padding: 1em 1em;
   position: absolute;
   vertical-align: top;
   width: 45%;
+}
+.contDer {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 45%;
+}
+.contDer img {
+  width: 70%;
 }
 .contFlor {
   background-image: url("/img/bgFlor.jpg");
@@ -267,6 +308,16 @@ h3 {
   margin: auto;
   padding: 30px 0;
   width: 30%;
+}
+.contIzq {
+  display: inline-block;
+  border-radius: 0.5em;
+  vertical-align: top;
+  text-align: left;
+  width: 45%;
+}
+.contIzq img {
+  width: 100%;
 }
 .florM {
   background-image: url("/img/mujer.jpg");
@@ -286,6 +337,18 @@ h3 {
   width: 700px;
   height: 680px;
 }
+.fondoB {
+  background: rgba(228,245,252,0.49);
+  border-radius: 0.5em;
+  margin: auto;
+  padding: 0 15px;
+  text-align: left;
+  width: 56%;
+}
+.fondo2 {
+  background: #000;
+  width: 100%;
+}
 .img1 {
   background-color: #000;
   width: 100%;
@@ -298,17 +361,17 @@ h3 {
   height: 870px;
 }
 .img2 img {
-  width: 100%;
+  width: 90%;
 }
 .img3 {
   position: relative;
   width: 100%;
 }
 .info {
-  background: #000;
-  color: #808080;
+  background: #fff;
+  color: #000;
   margin: auto;
-  width: 60%;
+  width: 100%;
 }
 .miel {
   background-image: url("/img/miel.png");
@@ -333,6 +396,24 @@ h3 {
 }
 .terapia h1 {
   color: #f79f06;
+}
+.terapia ul {
+  display: inline;
+  text-decoration: none;
+}
+.terapia ul li {
+  text-decoration: none;
+}
+.terapia2 {
+  background: #000;
+  border-radius: 0.5em;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 2em;
+}
+.terapia2 h2 {
+  text-align: center;
 }
 @media screen and (max-width: 959px) {
   #logo {
