@@ -4,6 +4,9 @@ body {
   padding: 0;
   width: 100%;
 }
+body p {
+  font-size: 1.1em;
+}
 button {
   background: #f79f06;
   border-radius: 0.5em;
@@ -68,7 +71,6 @@ h3 {
   background-color: #000;
   color: #fff;
   padding: 2px;
-  text-align: center;
   width: 99%;
 }
 #contAT h3 {
@@ -76,11 +78,9 @@ h3 {
   font-size: 2em;
 }
 #contImg {
-  background-color: rgba(74,203,172,0.8);
-  color: #fff;
+  color: #e2e2e2;
   margin: auto;
   padding: 0.5em;
-  text-shadow: 4px 4px 2px #969696;
   width: 90%;
 }
 #contLargo {
@@ -89,7 +89,6 @@ h3 {
   width: 100%;
 }
 #fondo {
-  background: rgba(250,250,210,0.5);
   border-radius: 0.5em;
   width: 100%;
 }
@@ -262,6 +261,12 @@ h3 {
   background-color: #000;
   color: #fff;
 }
+.contAT {
+  text-align: center;
+  margin: auto;
+  padding: 16px;
+  width: 80%;
+}
 .cont2 {
   border-left: thin solid #000;
   display: inline-block;
@@ -284,6 +289,9 @@ h3 {
   vertical-align: top;
   width: 45%;
 }
+.cont3 h2 {
+  color: #f79f06;
+}
 .contDer {
   display: inline-block;
   vertical-align: top;
@@ -301,7 +309,6 @@ h3 {
   padding: 45px 0 0 0;
 }
 .contFlor h2 {
-  background: rgba(74,203,172,0.8);
   border-radius: 0.5em 0.5em 0 0;
   color: #fff;
   text-shadow: 4px 4px 2px #949696;
@@ -355,10 +362,12 @@ h3 {
 }
 .img2 {
   display: inline-block;
+  margin-top: 200px;
   position: relative;
   vertical-align: top;
   width: 45%;
   height: 870px;
+  text-align: center;
 }
 .img2 img {
   width: 90%;
@@ -444,6 +453,18 @@ h3 {
     width: 90%;
   }
   #navegacion {
+    width: 100%;
+  }
+  #pie {
+    background-image: url("/img/mielDesint.jpg");
+    background-repeat: no-repeat;
+    background-sieze: 100%;
+    font-style: oblique;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 26px;
+    margin: auto;
+    text-align: center;
     width: 100%;
   }
   #tratamiento {
