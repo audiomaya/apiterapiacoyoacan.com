@@ -1,9 +1,4 @@
-
-
 <!DOCTYPE html>
-<!--
-Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
- -->
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -12,6 +7,7 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 </head>
 <body>
@@ -20,10 +16,13 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
     <header>
       <figure id="logo" class="animated bounceInLeft">
         <img src="img/apiterapiaLogo.png">
-
       </figure>
+      <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+      </div>
       <nav id="navegacion">
         <ul>
+          <li id="logoNav" class="animated bounceInLeft"><a href="index.html"><img src="/img/apiterapia.png" ></a></li>
           <li class="animated bounceInLeft"><a href="index.html">Inicio</a></li>
           <li class="animated bounceInDown"> <a href="productos.html">Productos</a></li>
           <li class="animated bounceInUp"><a href="testimonios.html">Testimonios</a></li>
@@ -32,9 +31,11 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
       </nav>
     </header>
   </section>
-  <form action="" >
+  <form name="mail_frm" action="correo.php" method="post" enctype=
+  "application/x-www-form-urlencoded">
+
     <div id="formulario" class="animated bounceInDown">
-      <h2>Información de contacto</h2>
+      <h2>INFORMACION DE CONTACTO</h2>
       <input type="text" name="nombre" placeholder="Nombre">
       <input type="email" name="correo" placeholder="e-Mail">
       <input type="tel" name="telefono" placeholder="Teléfono">
@@ -52,10 +53,10 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
     <div id="fondo">
       <nav id="navP">
         <ul>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Testimonios</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Inscribete a nuestro boletín mensual</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="testimonios.html">Testimonios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="contacto.html">Inscribete a nuestro boletín mensual</a></li>
         </ul>
       </nav>
       <h1>Apiterapia Coyoacan</h1>
@@ -72,6 +73,7 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/stellar.js"></script>
+  <script src="js/main.js"></script>
   <script>
     $.stellar();
   </script>
@@ -86,4 +88,7 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
 
 </script>
 </body>
+<!--
+Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
+ -->
 </html>

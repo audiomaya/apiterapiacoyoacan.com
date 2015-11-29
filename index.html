@@ -10,6 +10,7 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
 </head>
 <body>
@@ -18,8 +19,12 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
       <figure id="logo" class="animated bounceInLeft">
         <img src="img/apiterapiaLogo.png">
       </figure>
+      <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a>
+      </div>
       <nav id="navegacion">
         <ul>
+          <li id="logoNav" class="animated bounceInLeft"><a href="index.html"><img src="/img/apiterapia.png" ></a></li>
           <li class="animated bounceInLeft"><a href="index.html">Inicio</a></li>
           <li class="animated bounceInDown"> <a href="productos.html">Productos</a></li>
           <li class="animated bounceInUp"><a href="testimonios.html">Testimonios</a></li>
@@ -27,6 +32,8 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
         </ul>
       </nav>
     </header>
+  </section>
+    <div class="fondo2">
       <section id="descripcion">
         <h1>¿Apiterapia?</h1>
         <p>El uso de productos de las abejas en beneficio de tu SALUD.</p>
@@ -47,14 +54,15 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
         <p>¿Quieres saber como a ayudado la apiterapia a muchas personas?</p>
         <button class=" animated pulse"><a href="testimonios.html">Saber</a></button>
       </section>
-      <div id="imgDescrip" data-stellar-ratio="2">
+      <div id="imgDescrip" >
         <h2>Aprende mas de la apiterapia</h2>
         <p>Apiterapia Coyoacan presente en los principales medios de comunicación de nuestro país.</p>
         <p>Dale play al video</p>
         <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
         <div class="fb-video" data-allowfullscreen="1" data-href="/Apiterapiaenmexico/videos/vb.351119521637184/451370184945450/?type=3"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Apiterapiaenmexico/videos/451370184945450/"><a href="https://www.facebook.com/Apiterapiaenmexico/videos/451370184945450/">Apiterapia en mexico</a><p>reportaje de televisa</p>Posted by <a href="https://www.facebook.com/Apiterapiaenmexico/">Apiterapia en Mexico</a> on lunes, 15 de abril de 2013</blockquote></div></div>
       </div>
-  </section>
+
+  </div>
   <section id="contLargo" data-stellar-background-ratio="0.5">
     <section class="contFlor">
       <h2>¿Como funciona la apiterapia?</h2>
@@ -127,7 +135,7 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
         mas potente que cualquier analgesico que se encuentre en el mercado alopata, es un
         antiinflamatorio natural y un regulador del sistema inmunológico sin efectos secundarios nocivos.</p>
         <h3>Programa una cita hoy mismo e inicia tu recuperación.</h3>
-        <button class=" animated pulse"><a href="productos.html">Programa una cita</a></button>
+        <button class=" animated pulse"><a href="contacto.html">Programa una cita</a></button>
     </section>
   </div>
   <div id="miel">
@@ -152,14 +160,14 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
   </div>
   <footer id="pie" data-stellar-background-ratio="0.5">
     <section id="fondo">
-      <nav id="navP">
+      <section id="navP">
         <ul>
           <li><a href="productos.html">Productos</a></li>
           <li><a href="testimonios.html">Testimonios</a></li>
           <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="#">Inscribete a nuestro boletín mensual</a></li>
+          <li><a href="contacto.html">Inscribete a nuestro boletín mensual</a></li>
         </ul>
-      </nav>
+      </section>
       <h1>Apiterapia Coyoacan</h1>
       <div id="contacto">
         <p>visitanos en:</p>
@@ -175,6 +183,7 @@ Copyright (c) 2015 by Placeholder Corporation. All Rights Reserved.
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/stellar.js"></script>
   <script src="js/popup.js"></script>
+  <script src="js/main.js"></script>
   <script>
     $.stellar();
   </script>
