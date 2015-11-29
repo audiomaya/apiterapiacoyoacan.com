@@ -314,6 +314,17 @@ h3 {
 .cont3 h2 {
   color: #f79f06;
 }
+.cont4 {
+  border-left: thin solid #000;
+  display: inline-block;
+  margin-top: 80px;
+  padding: 1em 1em;
+  vertical-align: top;
+  width: 45%;
+}
+.cont4 h2 {
+  color: #008000;
+}
 .contDer {
   display: inline-block;
   vertical-align: top;
@@ -543,6 +554,9 @@ h3 {
     vertical-align: top;
     width: 100%;
   }
+  #formulario {
+    width: 100%;
+  }
   #imgDescrip {
     position: static;
     width: 70%;
@@ -612,6 +626,16 @@ h3 {
   .apitox {
     display: none;
   }
+  .cont2 {
+    display: none;
+  }
+  .cont4 {
+    width: 100%;
+  }
+  .cont4 iframe {
+    margin: auto;
+    width: 90%;
+  }
   .menu_bar {
     background: #df4801;
     display: block;
@@ -631,8 +655,7 @@ h3 {
     font-size: 40px;
   }
   .img2 {
-    margin-top: 100px;
-    z-index: 2;
+    display: none;
   }
   .titulo {
     background-color: rgba(0,171,255,0.6);
